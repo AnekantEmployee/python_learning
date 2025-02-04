@@ -1,5 +1,6 @@
 str  = " Anekant jain"
 
+# Always returns a new string after performing function
 print(len(str))
 print(str.endswith("n"))
 print(str.startswith("a"))
