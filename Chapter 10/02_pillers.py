@@ -43,6 +43,9 @@ my_car.start_engine()
 
 
 # 3. Inheritance: One class acquiring properties of another.
+# i. Single Inheritance
+# ii. Multiple Inheritance
+# iii. Multilevel Inheritance
 class Employee:
     def __init__(self, name, salary):
         self.name = name
@@ -74,6 +77,13 @@ class Cat:
 class Dog:
     def speak(self):
         return "Bark"
+    
+    # p1.__add__(p2)
+    # p1.__sub__(p2)
+    # p1.__mul__(p2)
+    # p1.__truediv__(p2)
+    # p1.__floordiv__(p2)
+    
     
 # Function demonstrating polymorphism
 def animal_sound(animal):
