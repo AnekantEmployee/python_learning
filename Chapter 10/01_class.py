@@ -19,4 +19,4 @@ anekant.getInfo() # Employee.getInfo(anekant)
 shiv.getInfo()
 
 # Printing static data
-anekant.goodMorning() 
+anekant.goodMorning() #Employee.goodMorning()
